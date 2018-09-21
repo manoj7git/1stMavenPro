@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="Test Maven Suite1">
+  <test name="Test Maven testing" >
+    <packages>
+       <package name="com.qa.tests" />
+    </packages>
+  </test>  
+</suite>
