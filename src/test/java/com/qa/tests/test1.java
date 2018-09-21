@@ -7,9 +7,9 @@ public class test1 {
 
 	@Test
 	public void sum() {
-		int a = 10;
+		int a = 20;
 		int b = 20;		
-		Assert.assertEquals(30, a+b);
+		Assert.assertEquals(40, a+b);
 		
 	}
 	
