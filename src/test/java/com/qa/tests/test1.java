@@ -16,8 +16,7 @@ public class test1 {
 	@Test
 	public void minus() {
 		int a = 10;
-		int b = 20;
-		//int total = a+b;
+		int b = 20;		
 		Assert.assertEquals(10, b-a);
 		//System.out.println(total);
 	}
