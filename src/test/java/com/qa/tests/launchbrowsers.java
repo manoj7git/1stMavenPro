@@ -9,11 +9,11 @@ public class launchbrowsers {
 	public WebDriver driver;
 	
 	@Test
-	public void setup() {
+	public void setup() throws InterruptedException {
 		System.setProperty("webdriver.gecko.driver", "D:\\me\\Study\\Selenium\\Downloads\\Browser_drivers\\Firefox\\geckodriver-v0.19.0-win64\\geckodriver.exe");
 		driver = new FirefoxDriver();
-		driver.get("google.com");
-		//driver.navigate().to("http://www.google.com");
+		driver.get("http://www.google.com");
+		Thread.sleep(5000);
 		driver.quit();
 	}
 	
