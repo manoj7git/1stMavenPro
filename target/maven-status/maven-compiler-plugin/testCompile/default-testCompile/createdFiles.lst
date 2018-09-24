@@ -1,2 +1,3 @@
 com\qa\tests\test1.class
+com\qa\tests\launchbrowsers.class
 com\qa\tests\test2.class

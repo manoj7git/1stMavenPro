@@ -1,27 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Test Maven Suite1" duration-ms="23" started-at="2018-09-20T14:35:26Z" finished-at="2018-09-20T14:35:26Z">
+  <suite name="Test Maven Suite1" duration-ms="3439" started-at="2018-09-24T05:59:55Z" finished-at="2018-09-24T05:59:59Z">
     <groups>
     </groups>
-    <test name="Test Maven testing" duration-ms="23" started-at="2018-09-20T14:35:26Z" finished-at="2018-09-20T14:35:26Z">
+    <test name="Test Maven testing" duration-ms="3439" started-at="2018-09-24T05:59:55Z" finished-at="2018-09-24T05:59:59Z">
       <class name="com.qa.tests.test1">
-        <test-method status="PASS" signature="minus()[pri:0, instance:com.qa.tests.test1@5315b42e]" name="minus" duration-ms="4" started-at="2018-09-20T14:35:26Z" finished-at="2018-09-20T14:35:26Z">
+        <test-method status="PASS" signature="minus()[pri:0, instance:com.qa.tests.test1@68837a77]" name="minus" duration-ms="4" started-at="2018-09-24T05:59:59Z" finished-at="2018-09-24T05:59:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- minus -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:com.qa.tests.test1@5315b42e]" name="sum" duration-ms="0" started-at="2018-09-20T14:35:26Z" finished-at="2018-09-20T14:35:26Z">
+        <test-method status="PASS" signature="sum()[pri:0, instance:com.qa.tests.test1@68837a77]" name="sum" duration-ms="0" started-at="2018-09-24T05:59:59Z" finished-at="2018-09-24T05:59:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
       </class> <!-- com.qa.tests.test1 -->
       <class name="com.qa.tests.test2">
-        <test-method status="PASS" signature="sum()[pri:0, instance:com.qa.tests.test2@2ef9b8bc]" name="sum" duration-ms="0" started-at="2018-09-20T14:35:26Z" finished-at="2018-09-20T14:35:26Z">
+        <test-method status="PASS" signature="sum()[pri:0, instance:com.qa.tests.test2@6be46e8f]" name="sum" duration-ms="1" started-at="2018-09-24T05:59:59Z" finished-at="2018-09-24T05:59:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
       </class> <!-- com.qa.tests.test2 -->
+      <class name="com.qa.tests.launchbrowsers">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.tests.launchbrowsers@2d554825]" name="setup" duration-ms="3410" started-at="2018-09-24T05:59:55Z" finished-at="2018-09-24T05:59:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+      </class> <!-- com.qa.tests.launchbrowsers -->
     </test> <!-- Test Maven testing -->
   </suite> <!-- Test Maven Suite1 -->
 </testng-results>
