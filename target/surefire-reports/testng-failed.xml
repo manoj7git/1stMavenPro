@@ -5,7 +5,7 @@
     <classes>
       <class name="com.qa.tests.launchbrowsers">
         <methods>
-          <include name="setup"/>
+          <include name="iebowser"/>
         </methods>
       </class> <!-- com.qa.tests.launchbrowsers -->
     </classes>
